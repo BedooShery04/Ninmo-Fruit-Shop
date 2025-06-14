@@ -216,10 +216,15 @@ button:hover {
     column-gap: 2vh;
 }
 
+.container .about .img {
+    background-color: #5a5a5a;
+}
+
 .container .about .img img {
-    box-shadow: -10px 0px 0px 10px #CCC;
-    width: 650px;
-    height: 500px;
+    position: relative;
+    left: 1%;
+    top: 1v;
+
 }
 
 .container .about .read-more {
