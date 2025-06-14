@@ -222,8 +222,8 @@ button:hover {
 
 .container .about .img img {
     position: relative;
-    left: 1%;
-    top: 1v;
+    left: 2%;
+    top: 5vh;
 
 }
 
@@ -538,7 +538,7 @@ footer .socials .fa-linkedin {
     color: #086bca;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1350px) {
     .container .about {
         flex-direction: column;
     }
@@ -547,6 +547,10 @@ footer .socials .fa-linkedin {
         margin-top: 10%;
     }
 
+}
+
+
+@media (max-width: 1090px) {
     .container .request .req-body {
         flex-direction: column;
     }
@@ -569,6 +573,11 @@ footer .socials .fa-linkedin {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
     }
+
+    .container .about .img img {
+        width: 100%;
+        height: 50vh;
+    }
 }
 
 @media (max-width: 860px) {
@@ -584,11 +593,6 @@ footer .socials .fa-linkedin {
         justify-content: center;
         align-items: center;
         padding: 0;
-    }
-
-    .container .about .img img {
-        width: 100%;
-        height: 50vh;
     }
 
     footer .contact {
@@ -662,9 +666,23 @@ header #list {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 570px) {
     .container .fresh-fruit .ff2 {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
+    }
+
+    .container .titl .im,
+    .container .titl .im img {
+        width: 275px;
+        height: 275px;
+    }
+
+}
+
+@media (max-width: 530px) {
+    .container .about .img {
+        width: 90%;
+        height: 50vh;
     }
 }
