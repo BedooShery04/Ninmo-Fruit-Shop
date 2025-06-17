@@ -231,7 +231,6 @@ button:hover {
     position: relative;
     left: 2%;
     top: 2vh;
-
 }
 
 .container .about .read-more {
@@ -411,13 +410,11 @@ button:hover {
 .container .request .req-body form .ins-grp,
 .container .request .req-body form input[type="button"] {
     margin-bottom: 3%;
-    
 }
 
 .container .request .req-body form .ins-grp {
     width: 100%;
     position: relative;
-
 }
 
 .container .request .req-body form .ins-grp input,
@@ -519,7 +516,6 @@ footer .socials {
     justify-content: space-between;
     font-size: 25px;
     padding-bottom: 2vh;;
-
 }
 
 footer .socials i {
@@ -555,7 +551,6 @@ footer .socials .fa-linkedin {
     .container .about .read-more {
         margin-top: 10%;
     }
-
 }
 
 
@@ -589,7 +584,6 @@ footer .socials .fa-linkedin {
         width: 100%;
         height: 50vh;
     }
-
 }
 
 @media (max-width: 860px) {
@@ -690,6 +684,14 @@ header #list {
         align-items: center;
     }
 
+    footer .contact {
+        flex-direction: column;
+    }
+
+    footer .contact .c1 {
+        padding: 1%;
+    }
+
     footer .socials i {
         font-size: 14px;
     }
@@ -706,7 +708,6 @@ header #list {
         width: 275px;
         height: 275px;
     }
-
 }
 
 @media (max-width: 530px) {
